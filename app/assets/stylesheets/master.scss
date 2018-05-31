@@ -69,3 +69,23 @@ body {
   background: image_url('lg.png');
   font-family: "Helvetica Neue", Helvetica;
 }
+
+#flex-content-container {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(31, 31, 20);
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px;
+  color: white;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
+}
